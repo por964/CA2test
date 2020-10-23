@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Persons</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="col-sm-6">
+                <br>
+                <h1>Persons</h1>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Email</th>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Street</th>
+                            <th>Zipcode</th>
+                            <th>Phone</th>
+                            <th>Hobbies</th>
+                        </tr>
+                    </thead>
+                    <tbody id="persons">
+                    </tbody>
+                </table>
+                <input type="text" id="hobbyID">
+                <button class="btn btn-primary" id="filterByHobbyButton">Filter by hobby</button><br><br>
+                <button class = "btn btn-primary" id="getAllPersonsButton">Get all persons</button><br><br>
+                <br>
+                <a href="index.html">Back to front page</a>
+                <br><br>
+            </div>
+        </div>
+        <br>
+        <br>
+                    <br>
+            <br>
+            <div id="3">
+
+                    <form class="form-inline">
+                <label for="email">Email: </label>
+                <input type="text" id="email" name="email">
+                <label for="fName">First name: </label>
+                <input type="text" id="fName" name="fName">
+                <label for="lName">Last name: </label>
+                <input type="text" id="lName" name="lName">
+                <label for="street">Street: </label>
+                <input type="text" id="street" name="street">
+                <label for="zip">Zip: </label>
+                <input type="text" id="zip" name="zip"><br>
+                <label for="hobbyName">Hobby name: </label>
+                <input type="text" id="hobbyName" name="hobbyName">
+                <label for="phNumber">Phone number: </label>
+                <input type="number" id="phNumber" name="phNumber">
+
+                </form>
+                </div>
+
+                <br>
+                <!-- Trigger/Open The Modal -->
+        <button id="myBtn">Add user</button>
+
+
+
+                <br>
+                <br>
+<script src="index2.js"></script>
+    </body>
+</html>
